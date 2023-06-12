@@ -24,6 +24,6 @@ type LoginType = 'phone' | 'account';
 
 export const Login=React.memo(()=> {
     return <div>
-
+ hello
     </div>
 })
