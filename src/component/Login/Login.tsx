@@ -71,17 +71,7 @@ export const Login=React.memo(()=> {
 
           actions={
 
-            <Space>
-
-              
-
-              <AlipayCircleOutlined style={iconStyles} />
-
-              <TaobaoCircleOutlined style={iconStyles} />
-
-              <WeiboCircleOutlined style={iconStyles} />
-
-            </Space>
+            
 
           }
 
