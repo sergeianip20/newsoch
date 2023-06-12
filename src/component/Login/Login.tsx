@@ -119,7 +119,7 @@ export const Login=React.memo(()=> {
 
                 }}
 
-                placeholder={'用户名: admin or user'}
+                placeholder={'логин'}
 
                 rules={[
 
@@ -147,7 +147,7 @@ export const Login=React.memo(()=> {
 
                 }}
 
-                placeholder={'密码: ant.design'}
+                placeholder={'пароль'}
 
                 rules={[
 
@@ -183,7 +183,7 @@ export const Login=React.memo(()=> {
 
                 }}
 
-                placeholder={'用户名: admin or user'}
+                placeholder={'логин'}
 
                 rules={[
 
@@ -211,7 +211,7 @@ export const Login=React.memo(()=> {
 
                 }}
 
-                placeholder={'密码: ant.design'}
+                placeholder={'пароль'}
 
                 rules={[
 
@@ -242,7 +242,7 @@ export const Login=React.memo(()=> {
 
             <ProFormCheckbox noStyle name="autoLogin">
 
-              自动登录
+              авторизация
 
             </ProFormCheckbox>
 
