@@ -13,8 +13,7 @@ import {Login} from "./component/Login/Login";
 import {Users} from "./component/Users/Users";
 
 function App() {
-    return <BrowserRouter>
-        <div className='wrapper_grid'>
+    return         <div className='wrapper_grid'>
             <div className='header'>
                
             </div>
@@ -22,16 +21,10 @@ function App() {
                 <Menus/>
             </div>
             <div className='content'>
-                <Routes>
-                    <Route path={'/'} element={<Hoem/>}/>
-                    <Route path={'/profile'} element={<Profile/>}/>
-                    <Route path={'/messages'} element={<Messages/>}/>
-                    <Route path={'/login'} element={<Login/>}/>
-                    <Route path={'/users'} element={<Users/>}/>
-                </Routes>
+                
             </div>
         </div>
-    </BrowserRouter>
+ 
 
 }
 
