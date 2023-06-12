@@ -10,6 +10,7 @@ import {Profile} from "./component/profile/Profile";
 import {Messages} from "./component/Messages/Messages";
 import {Login} from "./component/Login/Login";
 import {Users} from "./component/Users/Users";
+import {Header} from "./component/Header/Header";
 export const router = createBrowserRouter([
   {
      path: '/',
