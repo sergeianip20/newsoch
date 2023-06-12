@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="79ded887-255f-49cb-9c82-6600852f9362" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Api/Api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Type/StateType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/reducers/AutReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/reducers/ProfileReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/reducers/UserReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/reducers/dialogsReducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/test/AuthReducer.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/test/ProfileReducer.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/test/dialogsreucer.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Login/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Messages/Messages.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Users/Users.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/hoem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/profile/Profile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/reducers/AppReducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/state/reducers/createAsyncThunkApp.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/Api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/reducers/UserReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/reducers/UserReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,8 +54,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/react/ekzamen/my-app",
+    "last_opened_file_path": "C:/it-inc/samurai/samurai-way",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\it-inc\\samuraireduxTolkit\\my-app\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,8 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680715296300</updated>
       <workItem from="1680715298693" duration="89000" />
+      <workItem from="1681402068139" duration="3632000" />
+      <workItem from="1681648835535" duration="6105000" />
+      <workItem from="1681746909961" duration="7317000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

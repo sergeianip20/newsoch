@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.wrapper_grid{
+  display: grid;
+  grid-template-rows: 90px 1fr;
+  grid-template-columns: 2fr 10fr;
+
+  grid-template-areas:
+" header header"
+  "nav content "
+;
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  grid-area: header;
+
+}
+.nav {
+  grid-area: nav;
+
+}
+.content {
+  grid-area: content;
+
+  width: 100%;
+}

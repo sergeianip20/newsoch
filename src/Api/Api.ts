@@ -15,13 +15,18 @@ export const userApi = {
             return response.data
         })
     },
+
+}
+
+export const FoolowedUser = {
+    getFollowed(userId:number){
+        return instance.get(`/follow/${userId}`)
+    },
     Followed(id:number) {return instance.post(`/follow/${id}`,).then(response => {return response.data}) },
     unFollowed(id:number) {
         return instance.delete( `/follow/${id}`,).then(response => {return response.data })
     }
 }
-
-
 
 export const Login = () => {
     return instance.get( `/auth/me`,).then(response => {
@@ -30,8 +35,16 @@ export const Login = () => {
     })
 
 }
-export const ProfileContent=(userId:string)=> {
-    return instance.get(`/profile/${userId}`).then((response)=> {
-        return response.data
-    })
+export const ProfileContent = {
+   getProfile(userId:string)
+    {
+        instance.get(`/profile/${userId}`).then((response) => {
+            return response.data
+        })
+    }
+}
+export type ResponseType<D = {}> = {
+    resultCode: number
+    messages: Array<string>
+    data: D
 }
