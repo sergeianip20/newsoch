@@ -16,7 +16,7 @@ function App() {
     return <BrowserRouter>
         <div className='wrapper_grid'>
             <div className='header'>
-                <Header/>
+               
             </div>
             <div className='nav'>
                 <Menus/>
