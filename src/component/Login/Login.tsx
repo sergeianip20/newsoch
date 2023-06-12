@@ -97,9 +97,9 @@ export const Login=React.memo(()=> {
 
           >
 
-            <Tabs.TabPane key={'account'} tab={'账号密码登录'} />
+            <Tabs.TabPane key={'account'} tab={'Вход'} />
 
-            <Tabs.TabPane key={'phone'} tab={'手机号登录'} />
+            <Tabs.TabPane key={'phone'} tab={'Регистрация'} />
 
           </Tabs>
 
