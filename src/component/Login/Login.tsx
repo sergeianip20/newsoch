@@ -69,11 +69,7 @@ export const Login=React.memo(()=> {
 
           subTitle="социальная сеть"
 
-          actions={
-
-            
-
-          }
+         
 
         >
 
