@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {store} from "./state/store";
 import { Provider } from 'react-redux';
-import {createHashRouter} from 'react-router-dom'
+import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import {Profile} from "./component/profile/Profile";
 import {Messages} from "./component/Messages/Messages";
 import {Login} from "./component/Login/Login";
