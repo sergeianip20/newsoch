@@ -3,6 +3,19 @@ import {Pagination} from 'antd';
 import {useDispatch, useSelector} from "react-redux";
 import {AppDispatch, AppRootStateType} from "../../state/store";
 import {userThunk} from "../../state/reducers/UserReducer";
+import {
+
+  LoginForm,
+
+  ProConfigProvider,
+
+  ProFormCaptcha,
+
+  ProFormCheckbox,
+
+  ProFormText,
+
+} from '@ant-design/pro-components';
 
 export const Users = () => {
     let currentpage = useSelector<AppRootStateType, number>(state => state.Userreducer.currentPage)
@@ -20,6 +33,10 @@ export const Users = () => {
     return <div>
 
         <Pagination onChange={(e)=> {onChangeHandler(e)}} defaultCurrent={currentpage} total={totalCount}/>
+<ProConfigProvider hashed={false}>
+<LoginForm>
+</LoginForm>
+</ProConfigProvider>
 
     </div>
 }
