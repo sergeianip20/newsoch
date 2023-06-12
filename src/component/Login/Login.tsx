@@ -67,13 +67,13 @@ export const Login=React.memo(()=> {
 
           title="Github"
 
-          subTitle="全球最大的代码托管平台"
+          subTitle="социальная сеть"
 
           actions={
 
             <Space>
 
-              其他登录方式
+              
 
               <AlipayCircleOutlined style={iconStyles} />
 
@@ -127,7 +127,7 @@ export const Login=React.memo(()=> {
 
                     required: true,
 
-                    message: '请输入用户名!',
+                    message: '!',
 
                   },
 
@@ -155,7 +155,7 @@ export const Login=React.memo(()=> {
 
                     required: true,
 
-                    message: '请输入密码！',
+                    message: '！',
 
                   },
 
@@ -191,7 +191,7 @@ export const Login=React.memo(()=> {
 
                     required: true,
 
-                    message: '请输入用户名!',
+                    message: '!',
 
                   },
 
@@ -219,7 +219,7 @@ export const Login=React.memo(()=> {
 
                     required: true,
 
-                    message: '请输入密码！',
+                    message: '！',
 
                   },
 
@@ -256,7 +256,7 @@ export const Login=React.memo(()=> {
 
             >
 
-              忘记密码
+              забыли пароли
 
             </a>
 
