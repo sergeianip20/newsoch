@@ -33,7 +33,7 @@ import { message, Space, Tabs } from 'antd';
 
 import type { CSSProperties } from 'react';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 type LoginType = 'phone' | 'account';
 
