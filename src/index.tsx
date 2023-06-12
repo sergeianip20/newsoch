@@ -6,13 +6,30 @@ import reportWebVitals from './reportWebVitals';
 import {store} from "./state/store";
 import { Provider } from 'react-redux';
 import {createHashRouter} from 'react-router-dom'
+import {Profile} from "./component/profile/Profile";
+import {Messages} from "./component/Messages/Messages";
+import {Login} from "./component/Login/Login";
+import {Users} from "./component/Users/Users";
 export const router = createBrowserRouter([
   {
      path: '/',
      element: <App />
   },{
    path: '/login',
-    
+    element: <Login />
+  },
+  {
+   path:'/profile',
+    element: <Profile />
+  },
+  {
+  path:'/messages',
+    element: <Messages />
+  
+  },{
+  path: '/users',
+    element: <Users />
+  
   }
 ])
 const root = ReactDOM.createRoot(
