@@ -1,5 +1,5 @@
 import {BaseThunkAPI} from "@reduxjs/toolkit/dist/createAsyncThunk";
-import {AppDispatch, RootState} from "app/store";
+import {AppDispatch, RootState} from "state/store";
 import {AxiosError, isAxiosError} from "axios";
 
 
