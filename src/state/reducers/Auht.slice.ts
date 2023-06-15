@@ -7,6 +7,24 @@ const initialState = {
     login: '',
     isAuth: false
 }
+
+
+const me = createAppAsyncThunk<{ profile: ProfileType }, ''>
+("auth/me", async (arg:any, thunkAPI) => {
+  const res = await authApi.authMe();
+  return { profile: res.data };
+});
+const login = createAppAsyncThunk<{ userId: number }, ArgLoginType>("auth/login", async (arg, thunkAPI) => {
+    return thunkTryCatch(
+        thunkAPI,
+        async () => {
+            const res = await authApi.login(arg);
+            return profile: res.data.userId
+        },
+        true
+    );
+});
+
 export type AppInitialStateType = typeof initialState
 const scile = createSlice({
     name:'app',
