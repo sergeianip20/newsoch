@@ -1,6 +1,7 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import {InitialStateAuth} from "../../Type/StateType";
-
+import {thunkTryCatch} from 'common/tryCatchThunk';
+import {createAppAsyncThunk} from 'state/createAsyncThunkApp'
 const initialState = {
     userId: 0,
     email: '',
