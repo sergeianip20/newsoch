@@ -8,7 +8,12 @@ const initialState = {
     login: '',
     isAuth: false
 }
+type ArgLoginType = {
+ email: string,
+  password:string,
+    rememberMe:boolean
 
+}
 
 const me = createAppAsyncThunk<{ profile: ProfileType }, ''>
 ("auth/me", async (arg:any, thunkAPI) => {
@@ -20,7 +25,7 @@ const login = createAppAsyncThunk<{ userId: number }, ArgLoginType>("auth/login"
         thunkAPI,
         async () => {
             const res = await authApi.login(arg);
-            return profile: res.data.userId
+            return userId: res.data.userId
         },
         true
     )
