@@ -15,21 +15,21 @@ type ArgLoginType = {
 
 }
 
-const me = createAppAsyncThunk<{ profile: ProfileType }, ''>
-("auth/me", async (arg:any, thunkAPI:any) => {
-  const res = await authApi.authMe();
-  return { profile: res.data };
-})
-const login = createAppAsyncThunk<{ userId: number }, ArgLoginType>("auth/login", async (arg:any, thunkAPI:any) => {
-    return thunkTryCatch(
-        thunkAPI,
-        async () => {
-            const res = await authApi.login(arg);
-            return userId: res.data.userId
-        },
-        true
-    )
-})
+//const me = createAppAsyncThunk<{ profile: ProfileType }, ''>
+//("auth/me", async (arg:any, thunkAPI:any) => {
+///  const res = await authApi.authMe();
+//  return { profile: res.data };
+//})
+//const login = createAppAsyncThunk<{ userId: number }, ArgLoginType>("auth/login", async (arg:any, thunkAPI:any) => {
+//    return thunkTryCatch(
+  //      thunkAPI,
+  //      async () => {
+    //        const res = await authApi.login(arg);
+    //        return userId: res.data.userId
+    //    },
+    //    true
+   // )
+//})
 
 export type AppInitialStateType = typeof initialState
 const scile = createSlice({
@@ -46,15 +46,15 @@ const scile = createSlice({
         },
 
     },
-    extraReducers:builder => {
-      builder.addCase(me.fulfilled, (state, action)=> {
-      state.userId = action.payload.profile.userId
-          state.email = action.payload.profile.email
-          state.login = action.payload.profile.login
+   // extraReducers:builder => {
+    //  builder.addCase(me.fulfilled, (state, action)=> {
+     // state.userId = action.payload.profile.userId
+      //    state.email = action.payload.profile.email
+      //    state.login = action.payload.profile.login
       
-      })
+     // })
     
-    }
+    //}
 })
 export const appReducer = scile.reducer
 export const appActions = scile.actions
