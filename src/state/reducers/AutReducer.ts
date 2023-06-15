@@ -45,6 +45,15 @@ const scile = createSlice({
             state.isAuth = action.payload.isAuth
         },
 
+    },
+    extraReducers:builder => {
+      builder.addCase(me.fulfilled, (state, action)=> {
+      state.userId = action.payload.profile.userId
+          state.email = action.payload.profile.email
+          state.login = action.payload.profile.login
+      
+      })
+    
     }
 })
 export const appReducer = scile.reducer
