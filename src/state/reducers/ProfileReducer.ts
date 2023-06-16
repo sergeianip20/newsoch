@@ -84,6 +84,9 @@ const slice = createSlice({
     // extraReducers:builder => {
     // builder.addCase(FetchProfile.fulfilled, (state, action)=> {
     //state.fullName = action.payload.profile.fullName
+    //state.lookingForAJob =  action.payload.profile.lookingForAJob
+    //state.userId = action.payload.profile.userId
+    // state.photos = {...action.payload.profile.photos}
 //})
     //}
     }
