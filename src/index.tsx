@@ -11,6 +11,7 @@ import {Messages} from "./component/Messages/Messages";
 import {Login} from "./component/Login/Login";
 import {Users} from "./component/Users/Users";
 import {Header} from "./component/Header/Header";
+import {ProfileForm} from '/component/form/CreateForm';
 export const router = createBrowserRouter([
   {
      path: '/',
@@ -31,6 +32,9 @@ export const router = createBrowserRouter([
   path: '/users',
     element: <Users />
   
+  },{
+  path:'/profileform',
+    element: <ProfileForm />
   }
 ])
 const root = ReactDOM.createRoot(
