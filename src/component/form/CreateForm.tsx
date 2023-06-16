@@ -1,6 +1,6 @@
 import React from 'react'
 import {Input, Row, Col, Card} from 'antd'
-import {useForm, SubmitHandler, Path, UseFormRegister} from "react-hook-form";
+
 
 
 export const ProfileForm=()=> {
