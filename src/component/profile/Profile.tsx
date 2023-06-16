@@ -1,7 +1,11 @@
 import {Image, Col, Row} from 'antd'
-import React, {FC} from 'react'
+import React, {FC, useEffect} from 'react'
+import {useParams} from 'react-router-dom'
 export const Profile:FC =()=> {
 
+    let {userId} = useParams()
+useEffect(()=> {
+console.log(userId)}, [userId])    
 
     return <div>
     <Row>
