@@ -1,6 +1,6 @@
 import React from 'react'
 import {Input, Row, Col, Card} from 'antd'
-import {Useroutlined} from '@ant-design/icons'
+import {UserOutlined} from '@ant-design/icons'
 
 
 export const ProfileForm=()=> {
