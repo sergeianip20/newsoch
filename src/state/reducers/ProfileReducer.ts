@@ -1,6 +1,14 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 import {thunkTryCatch} from 'common/tryCatchThunk';
 import {createAppAsyncThunk} from 'state/reducers/createAsyncThunkApp'
+import {ProfileContent } from 'Api/Api'
+
+//const FetchProfile = createAppAsyncThunk<{ profile: ProfileType }, string>
+//("auth/me", async (arg:string, thunkAPI:any) => {
+/// return thunkTryCatch( thunkAPI async() => {const res = await authApi.authMe()}
+//  return { profile: res.data };)
+//})
+
 let initialState = {
 
     PostData: [
