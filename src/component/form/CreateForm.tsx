@@ -16,8 +16,8 @@ return( <>
       </Col>
     </Row>
     <Row>
-      <Col span={12}> gitHub </Col>
-      <Col span={12}><Input prefix={<GithubOutlined />} /> </Col>
+      <Col span={4}> gitHub </Col>
+      <Col span={20}><Input prefix={<GithubOutlined />} /> </Col>
     </Row>
     <Row><Col span={12}> vk </Col>
       <Col span={12}><Input /> </Col> </Row>
