@@ -5,7 +5,7 @@ import {ProfileContent } from 'Api/Api'
 
 //const FetchProfile = createAppAsyncThunk<{ profile: ProfileType }, string>
 //("auth/me", async (arg:string, thunkAPI:any) => {
-/// return thunkTryCatch( thunkAPI async() => {const res = await authApi.authMe()}
+/// return thunkTryCatch( thunkAPI async() => {const res = await ProfileContent.getProfile(arg)}
 //  return { profile: res.data };)
 //})
 
@@ -80,7 +80,12 @@ const slice = createSlice({
             addProfile(state: AppInitialStateType, action: PayloadAction<{ profile: UserProfileData }>) {
                 state.UserProfile = action.payload.profile
             }
-        }
+        },
+    // extraReducers:builder => {
+    // builder.addCase(FetchProfile.fulfilled, (state, action)=> {
+    //state.fullName = action.payload.profile.fullName
+//})
+    //}
     }
 )
 export const ProfileReducers = slice.reducer
