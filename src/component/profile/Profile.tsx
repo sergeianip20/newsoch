@@ -20,5 +20,13 @@ console.log(userId)}, [userId])
         <Row>
             <Col span={24}> Github: https://github.com/sergeianip20 </Col>
         </Row>
+        <Row>
+            <Col> vk: vk.com </Col>
+        </Row>
+        <Row>
+            <Col> website </Col>
+            <Col> mainLink </Col>
+            <Col> </Col>
+        </Row>
     </div>
 }
