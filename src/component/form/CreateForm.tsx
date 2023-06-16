@@ -15,6 +15,12 @@ return( <>
         <Input prefix={<UserOutlined />} />
       </Col>
     </Row>
+    <Row>
+      <Col span={12}> gitHub </Col>
+      <Col span={12}><Input /> </Col>
+    </Row>
+    <Row><Col span={12}> vk </Col>
+      <Col span={12}><Input /> </Col> </Row>
   </Card>
 </Row>
 </>)
