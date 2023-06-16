@@ -17,8 +17,8 @@ type ArgLoginType = {
 
 //const me = createAppAsyncThunk<{ profile: ProfileType }, ''>
 //("auth/me", async (arg:any, thunkAPI:any) => {
-///  const res = await authApi.authMe();
-//  return { profile: res.data };
+/// return thunkTryCatch( thunkAPI async() => {const res = await authApi.authMe()}
+//  return { profile: res.data };)
 //})
 //const login = createAppAsyncThunk<{ userId: number }, ArgLoginType>("auth/login", async (arg:any, thunkAPI:any) => {
 //    return thunkTryCatch(
