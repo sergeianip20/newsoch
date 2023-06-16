@@ -11,7 +11,7 @@ console.log(userId)}, [userId])
     <Row>
         
         <Col span={24}>
-            <Image      width={200}    src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"     /> </Col>
+            <Image      width={200}  height={200}   src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"     /> </Col>
     </Row>
         <Row>
             <Col span={12}> Name: Sergey </Col>
@@ -25,8 +25,9 @@ console.log(userId)}, [userId])
         </Row>
         <Row>
             <Col> website </Col>
-            <Col> mainLink </Col>
+   
             <Col> </Col>
         </Row>
+        <Row>          <Col> mainLink </Col> </Row>
     </div>
 }
