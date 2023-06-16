@@ -1,6 +1,6 @@
 import React from 'react'
 import {Input, Row, Col, Card} from 'antd'
-import {UserOutlined} from '@ant-design/icons'
+import {UserOutlined, GithubOutlined } from '@ant-design/icons'
 
 
 export const ProfileForm=()=> {
@@ -17,7 +17,7 @@ return( <>
     </Row>
     <Row>
       <Col span={12}> gitHub </Col>
-      <Col span={12}><Input /> </Col>
+      <Col span={12}><Input pretix={<GithubOutlined />} /> </Col>
     </Row>
     <Row><Col span={12}> vk </Col>
       <Col span={12}><Input /> </Col> </Row>
