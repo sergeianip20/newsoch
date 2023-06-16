@@ -1,6 +1,6 @@
 import React from 'react'
 import {Input, Row, Col, Card} from 'antd'
-
+import {Useroutlined} from '@ant-design/icons'
 
 
 export const ProfileForm=()=> {
@@ -9,9 +9,10 @@ export const ProfileForm=()=> {
 return( <>
 <Row>
   <Card title='Изменения профиля' bordered={false} style={{width:1200}}>
-    <Row> 
+    <Row>
+      <Col span={8}>Имя</Col>
       <Col>
-        <Input />
+        <Input prefix={<UserOutlined />} />
       </Col>
     </Row>
   </Card>
