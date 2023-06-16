@@ -10,8 +10,8 @@ return( <>
 <Row>
   <Card title='Изменения профиля' bordered={false} style={{width:1200}}>
     <Row>
-      <Col span={8}>Имя</Col>
-      <Col>
+      <Col span={12}>Имя</Col>
+      <Col span={12}>
         <Input prefix={<UserOutlined />} />
       </Col>
     </Row>
