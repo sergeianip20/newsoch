@@ -87,6 +87,7 @@ const slice = createSlice({
     //state.lookingForAJob =  action.payload.profile.lookingForAJob
     //state.userId = action.payload.profile.userId
     // state.photos = {...action.payload.profile.photos}
+    //state.contancts =  {...action.payload.profile.contancts}
 //})
     //}
     }
